@@ -1,0 +1,274 @@
+<!-- header -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<!--For responisve	-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	
+<!--Bootstrap CSS-->	
+<link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css">
+	
+<!--Style CSS-->	
+<link rel="stylesheet" href="css/style.css"  type="text/css">	
+ 
+<!--Google Font	-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">	
+
+<!--Font awesome icon	-->
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"  />	
+<!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+	
+</head>
+
+
+<body>
+	
+    <header>
+	    <div class="container">
+		    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <!-- Replace the image with text -->
+                    <span style="color: white; font-weight: bold; font-size: 24px;">PawSOS</span>
+                </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donate.html">Donate</a>
+      </li>
+		
+		<li class="nav-item">
+        <a class="nav-link" href="doctors.html">Doctors</a>
+      </li>
+		
+		<li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+       
+      
+    </ul>
+    
+  </div>
+</nav>
+		</div>
+	</header>
+	
+
+
+  <section class="text-gray-600 body-font relative bg-[url('Assets/Images/pet-don.jpg')] bg-center bg-no-repeat
+        bg-cover donate-section">
+    <div class="container px-5 py-24 mx-auto card backdrop-blur-sm">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="padding-top: 15px;">
+          Donate Animals
+        </h1>
+        <p class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-90">
+          Fill up the form below and donate your pets.
+        </p>
+      </div>
+      <form id="survey-form" action="https://formspree.io/f/xayaokzl" method="POST">
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="name" class="leading-7 text-sm text-gray-900">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="email" class="leading-7 text-sm text-gray-900">Email</label>
+                <input type="email" id="email" name="email" placeholder="youremail@gmail.com" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="address" class="leading-7 text-sm text-gray-900">Address</label>
+                <input type="text" id="address" name="address" placeholder="Your Address" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="city" class="leading-7 text-sm text-gray-900">City</label>
+                <input type="text" id="city" name="city" placeholder="Agra" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="state" class="leading-7 text-sm text-gray-900">State</label>
+                <input type="text" id="state" name="state" placeholder="Uttar Pradesh" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="country" class="leading-7 text-sm text-gray-900">Country</label>
+                <input type="text" id="country" name="country" placeholder="India" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="number" class="leading-7 text-sm text-gray-900">Contact Number</label>
+
+                <input type="text" id="number" name="number" autocomplete="off" placeholder="+91 0123456789" 
+
+                
+
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  oninput="this.value = this.value.replace(/[^0-9\+\.]/g, '').replace(/(\..*)\./g, '$1');" required />
+
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="pet-type" class="leading-7 text-sm text-gray-900">Pet Type</label>
+                <input type="text" id="pet-type" name="pet-type" placeholder="Dog" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="name" class="leading-7 text-sm text-gray-900">Pet Name</label>
+                <input type="text" id="name" name="name" placeholder="Charlie" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="pet-color" class="leading-7 text-sm text-gray-900">Pet Color</label>
+                <input type="text" id="pet-color" name="pet-color" placeholder="Yellow" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="color" class="leading-7 text-sm text-gray-900">Pet Breed</label>
+                <input type="text" id="breed" name="color" placeholder="German Shepherd" autocomplete="off"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required />
+              </div>
+            </div>
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="message" class="leading-7 text-sm text-gray-900">Your Pet's Image</label>
+                <div class="max-w-3xl">
+                  <label
+                    class="flex justify-center w-full h-32 px-4 transition bg-white border-2 border-gray-300 border-dashed rounded-md appearance-none cursor-pointer hover:border-gray-400 focus:outline-none">
+                    <span class="flex items-center space-x-2">
+                      <span class="font-medium text-gray-600">
+                        Drop files to Attach, or
+                        <span class="text-blue-600 underline">Browse</span>
+                      </span>
+                    </span>
+                    <input type="file" name="file_upload" class="hidden" />
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 w-full">
+              <input type="checkbox" name="check" id="check" required>
+              <span class="p-1 font-medium text-gray-900">
+                I've read and agree to the Terms and Conditions of PetMe.
+              </span>
+            </div>
+            <div class="p-4 w-full">
+              <button type="submit"
+                id="submit_button">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </form>
+  </section>
+
+   
+<!--Start Footer	-->
+	<footer>
+	    <div class="container">
+		     <div class="row">
+			    <div class="col-md-3">
+				    <div class="footer-col footer-menu">
+					     <h3>About</h3>
+						  <ul>
+						    <li> <a href="">History</a> </li>
+						    <li> <a href="">Our Team</a> </li>
+						    <li> <a href="">Brand Guidelines</a> </li>
+						    <li> <a href="">Terms & Condition</a> </li>
+						    <li> <a href="">Privacy Policy</a> </li>
+						</ul>
+						 
+					</div>
+				 </div>
+				 
+				 
+				 <div class="col-md-3">
+				    <div class="footer-col footer-menu">
+					     <h3>Services</h3>
+						  <ul>
+						    <li> <a href="">How to Order</a> </li>
+						    <li> <a href="">Our Product</a> </li>
+						    <li> <a href="">Order Status</a> </li>
+						    <li> <a href="">Promo</a> </li>
+						    <li> <a href="">Payment Method</a> </li>
+						</ul>
+						 
+					</div>
+				 </div>
+				  
+				 <div class="col-md-6">
+				     <div class="subscribe-form">
+					      <h3>Subscribe </h3>
+						 <p> Lorem Ipsum available, but the majorit </p>
+						 <form>
+						    <div class="input-group">
+							    <input type="email" class="form-control">
+								<button type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+							 </div>
+						 </form>
+						 <ul class="footer-social">
+						  <li> <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>  </li>
+							   <li> <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a>  </li>
+							   <li> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>  </li>
+						 </ul>
+					 </div>
+				 </div>
+
+ 
+				 
+			</div>
+		</div>
+	</footer>
+<!--End Footer	-->
+	
+	
+<!--Jquery	-->
+	
+<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>	
+<script src="js/bootstrap.min.js" type="text/javascript"></script>	
+	
+</body>
+</html>
